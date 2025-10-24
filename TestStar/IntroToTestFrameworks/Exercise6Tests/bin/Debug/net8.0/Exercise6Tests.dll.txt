@@ -1,0 +1,2 @@
+Exercise6Tests.NegativeTestScenarios.Addition_ToMaxValue_ThrowsOverflowException
+Exercise6Tests.NegativeTestScenarios.Division_ByZero_ThrowsDivideByZeroException

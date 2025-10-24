@@ -1,0 +1,4 @@
+Exercise2Tests.Exercise2Tests.AdditionTest
+Exercise2Tests.Exercise2Tests.DivisionTest
+Exercise2Tests.Exercise2Tests.MultiplicationTest
+Exercise2Tests.Exercise2Tests.SubtractTest

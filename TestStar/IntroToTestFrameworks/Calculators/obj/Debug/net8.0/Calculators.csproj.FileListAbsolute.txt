@@ -1,0 +1,12 @@
+/home/lorie/TestStar/IntroToTestFrameworks/Calculators/bin/Debug/net8.0/Calculators.deps.json
+/home/lorie/TestStar/IntroToTestFrameworks/Calculators/bin/Debug/net8.0/Calculators.dll
+/home/lorie/TestStar/IntroToTestFrameworks/Calculators/bin/Debug/net8.0/Calculators.pdb
+/home/lorie/TestStar/IntroToTestFrameworks/Calculators/obj/Debug/net8.0/Calculators.GeneratedMSBuildEditorConfig.editorconfig
+/home/lorie/TestStar/IntroToTestFrameworks/Calculators/obj/Debug/net8.0/Calculators.AssemblyInfoInputs.cache
+/home/lorie/TestStar/IntroToTestFrameworks/Calculators/obj/Debug/net8.0/Calculators.AssemblyInfo.cs
+/home/lorie/TestStar/IntroToTestFrameworks/Calculators/obj/Debug/net8.0/Calculators.csproj.CoreCompileInputs.cache
+/home/lorie/TestStar/IntroToTestFrameworks/Calculators/obj/Debug/net8.0/Calculators.sourcelink.json
+/home/lorie/TestStar/IntroToTestFrameworks/Calculators/obj/Debug/net8.0/Calculators.dll
+/home/lorie/TestStar/IntroToTestFrameworks/Calculators/obj/Debug/net8.0/refint/Calculators.dll
+/home/lorie/TestStar/IntroToTestFrameworks/Calculators/obj/Debug/net8.0/Calculators.pdb
+/home/lorie/TestStar/IntroToTestFrameworks/Calculators/obj/Debug/net8.0/ref/Calculators.dll

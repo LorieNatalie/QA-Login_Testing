@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body { font-family: Arial; background: #f4f4f4; display: flex; justify-content: center; align-items: center; height: 100vh; }
+    .container { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 0 10px #ccc; width: 300px; }
+    input { width: 100%; padding: 8px; margin: 10px 0; }
+    button { width: 100%; padding: 8px; background: #007BFF; color: white; border: none; cursor: pointer; }
+    button:hover { background: #0056b3; }
+    .error { color: red; font-size: 14px; }
+    .success { color: green; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username">
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="login()">Login</button>
+    <p id="message"></p>
+  </div>
+
+  <script>
+    function login() {
+      const username = document.getElementById('username').value.trim();
+      const password = document.getElementById('password').value.trim();
+      const message = document.getElementById('message');
+      message.className = '';
+
+      if (!username && !password) {
+        message.textContent = "Username and password required";
+        message.className = "error";
+      } else if (!username) {
+        message.textContent = "Username required";
+        message.className = "error";
+      } else if (!password) {
+        message.textContent = "Password required";
+        message.className = "error";
+      } else if (username === "john_doe" && password === "Password123") {
+        message.textContent = "Login successful! Redirecting to dashboard...";
+        message.className = "success";
+        setTimeout(() => {
+          window.location.href = "dashboard.html";
+        }, 1000);
+      } else {
+        message.textContent = "Invalid username or password";
+        message.className = "error";
+      }
+    }
+  </script>
+</body>
+</html>
